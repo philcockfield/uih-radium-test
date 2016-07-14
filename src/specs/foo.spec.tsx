@@ -16,9 +16,13 @@ export class SearchInput extends React.Component<void, void> {
   }
 }
 
+const SearchInputHoc = Radium(SearchInput);
+
 
 describe('Foo', function() {
   before(() => {
-    this.component( <SearchInput /> )
+    this
+      .component( <SearchInput /> )
+      // .component( <SearchInputHoc /> )
   });
 });
