@@ -1,3 +1,1 @@
-describe('Test', function() {
-  require('./foo.spec');
-});
+require('./foo.spec');
