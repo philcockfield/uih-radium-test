@@ -1,0 +1,32 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/code/index.js",
+  "typings": "./lib/code/index.d.ts",
+  "scripts": {
+    "start": "node ./node_modules/ui-harness/start",
+    "lint": "node ./node_modules/tslint/bin/tslint 'src/**/*.ts{,x}' --format verbose",
+    "build": "rm -rf ./lib && node ./node_modules/typescript/bin/tsc"
+  },
+  "dependencies": {
+    "ui-harness": "^3.14.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "js-typescript": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Phil Cockfield",
+    "email": "phil@cockfield.net",
+    "url": "https://github.com/philcockfield/modules"
+  },
+  "homepage": "",
+  "license": "MIT"
+}
