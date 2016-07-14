@@ -3,9 +3,6 @@ import * as Radium from 'radium';
 
 
 
-export interface SearchInputProps {};
-
-
 
 @Radium
 export class SearchInput extends React.Component<void, void> {
